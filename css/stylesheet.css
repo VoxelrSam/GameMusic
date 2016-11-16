@@ -1,0 +1,309 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+/* Elements */
+
+a{
+	color: #769ce8;
+}
+
+html, body{
+	width:100%;
+	color:black;
+	height:100%;
+}
+
+h1{
+	color:black;
+	font-size:45px;
+	font-weight:100;
+	font-family:Arial;
+}
+
+p{
+	text-indent:25px;
+}
+
+/* Classes */
+
+.spacer{
+	background-attachment:fixed;
+}
+
+.animated { /* Ensures that animated elements become visible when animated */
+	visibility: visible !important; 
+}
+
+.center {
+	margin:auto;
+	max-width:1000px;
+}
+
+.content{
+	width:100%;
+	padding-top:20px;
+	padding-bottom:20px;
+	background:white;
+}
+
+.email{
+	color:lightgrey;
+	font-weight: normal;
+	padding:5px;
+	transition:-webkit-transform .5s, color .5s;
+}
+
+.email:hover{
+	transform:scale(1.05);
+	color:white;
+}
+
+.header{ /* .content header elements */
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:200;
+	font-size:50px;
+	border-bottom:3px solid black;
+}
+
+.text{ 
+	max-width:900px;
+	margin:auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: times new roman;
+	font-size:20px;
+	font-weight:100;
+	text-align:left;
+}
+
+.text img{
+	float:left;
+	margin-right:10px;
+	width:300px;
+}
+
+.subheader{
+	margin:auto;
+	width:800px;
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:100;
+	font-size:40px;
+	border-bottom:2px solid black;
+}
+
+.subtext{ 
+	max-width:800px;
+	margin:auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: times new roman;
+	font-size:20px;
+	font-weight:100;
+	text-align:left;
+}
+
+/* ID's */
+
+#spacer1 {
+	background:url(../photos/background.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#spacer2 {
+	background:url(../photos/background2.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#spacer3 {
+	background:url(../photos/background3.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#spacer4 {
+	background:url(../photos/background4.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#spacer5 {
+	background:url(../photos/background5.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#load{
+	position:fixed;
+	width:100%;
+	height:120%;
+	margin-top:-100px;
+	z-index:100;
+	background:black;
+}
+
+#load div{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-244px;
+	color:white;
+}
+
+#background{
+	width:100%;
+	position:fixed;
+	left:50%;
+	top:0px;
+	z-index:-500;
+}
+
+#backgroundOverlay{
+	width:100%;
+	position:fixed;
+	left:50%;
+	top:0px;
+	z-index:-499;
+	opacity: 0;
+}
+
+#cloud {
+	width:100%;
+	margin-top:25px;
+	position:relative;
+	padding-top:0px;
+}
+
+#cloudbuffer img{
+	width:100%;
+}
+
+#HWLogo {
+	width:200px;
+	transition:transform .2s;
+}
+
+#cloud a #HWLogo:hover{
+	transform:scale(1.05);
+}
+
+#headerContainer{
+	width:100%;
+	background:white;
+	height:60px;
+	position:fixed;
+	top:0px;
+	z-index:5;
+	border-bottom:1px solid lightgrey;
+}
+
+#header{
+	max-width:1000px;
+	height:100%;
+	margin:auto;
+	position:relative;
+}
+
+#header * {
+	display:inline-block;
+}
+
+#header h1{
+	position:absolute;
+	bottom:0px;
+	cursor:pointer;
+}
+
+#hexagonGif {
+	margin-top:50px;
+	margin-bottom:25px;
+	width:500px;
+}
+
+#HWContent{
+	background:#52bfa8;
+	padding-bottom:50px;
+}
+
+#hwteam {
+	max-width:1000px;
+	min-width:800px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#HWContent a{
+	color:#ef5725;
+}
+
+#nav{
+	position:absolute;
+	right:0px;
+	height:100%;
+	border-right:1px solid lightgrey;
+}
+
+#nav li{
+	height:100%;
+	position:relative;
+	display:inline-block;
+	border-left:1px solid lightgrey;
+	font-family:Arial;
+	font-size:35px;
+	font-variant: small-caps;
+	cursor: pointer;
+	cursor: hand;
+}
+
+#nav li a{
+	padding:10px;
+	text-align:center;
+	position:relative;
+	transition:padding-left .5s, padding-right .5s;
+	color:black;
+}
+
+#nav li a:hover{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#body{
+	width:100%;
+	height:100%;
+}
+
+#contact p{
+	text-align:center;
+	text-indent:0px;
+}
+
+#footer {
+	width:100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	font-family:arial;
+	text-align:center;
+	position:fixed;
+	bottom:0px;
+	background:rgba(0,0,0,.8);
+	border-top:1px solid white;
+	visibility:hidden;
+	z-index:5;
+}
