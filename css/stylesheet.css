@@ -87,12 +87,11 @@ p{
 
 .subheader{
 	margin:auto;
-	width:800px;
+	width:900px;
 	text-align:center;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight:100;
 	font-size:40px;
-	border-bottom:2px solid black;
 }
 
 .subtext{ 
@@ -265,7 +264,6 @@ p{
 	border-left:1px solid lightgrey;
 	font-family:Arial;
 	font-size:35px;
-	font-variant: small-caps;
 	cursor: pointer;
 	cursor: hand;
 }
