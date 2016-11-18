@@ -23,10 +23,15 @@ h1{
 }
 
 p{
-	text-indent:25px;
+	text-indent:50px;
 }
 
 /* Classes */
+
+.quote{
+	width:700px;
+	margin:auto;
+}
 
 .spacer{
 	background-attachment:fixed;
