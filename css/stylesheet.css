@@ -283,22 +283,24 @@ iframe {
 	display:inline-block;
 	border-left:1px solid lightgrey;
 	font-family:Arial;
-	font-size:35px;
+	font-size:25px;
 	cursor: pointer;
 	cursor: hand;
 }
 
 #nav li a{
 	padding:10px;
+	padding-top:14px;
 	text-align:center;
 	position:relative;
-	transition:padding-left .5s, padding-right .5s;
+	transition:padding-left .5s, padding-right .5s, color .5s;
 	color:black;
 }
 
 #nav li a:hover{
 	padding-left:15px;
 	padding-right:15px;
+	color: #769ce8;
 }
 
 #body{
