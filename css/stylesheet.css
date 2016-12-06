@@ -26,6 +26,11 @@ p{
 	text-indent:50px;
 }
 
+iframe {
+	padding:10px;
+	border:5px solid #769ce8;
+}
+
 /* Classes */
 
 .quote{
@@ -152,6 +157,14 @@ p{
     background-position: center;
 }
 
+#spacer6 {
+	background:url(../photos/background6.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #load{
 	position:fixed;
 	width:100%;
@@ -214,6 +227,8 @@ p{
 	top:0px;
 	z-index:5;
 	border-bottom:1px solid lightgrey;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 #header{
