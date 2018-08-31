@@ -52,8 +52,8 @@ function loaded(){
 	
 }
 
-function scrollTo(element, speed){
+function navigateTo(element){
 	$('html, body').animate({
 		scrollTop: $(element).offset().top - 60
-	}, speed);
+	}, 1000);
 }
